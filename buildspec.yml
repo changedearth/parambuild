@@ -9,6 +9,7 @@ phases:
       echo pre_build
   build:
     commands:
+      - echo PULL REQUEST ONLY IN BRANCH
       - echo build
       - echo $AWS_DEFAULT_REGION
       - echo $AWS_REGION
